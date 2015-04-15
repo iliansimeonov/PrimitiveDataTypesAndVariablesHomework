@@ -13,10 +13,10 @@ class FillBankData
         string holderNames = null;
         long balance = 0L;
         string bankName = null;
-        string iban = null;
+        string iBan = null;
         long cardOneNumber = 0L;
         long cardTwoNumber = 0L;
         long cardThreeNumber = 0L;
-        Console.WriteLine(holderNames + "\n" + balance + "\n" + bankName + "\n" + iban + "\n" + cardOneNumber + "\n" + cardTwoNumber + "\n" + cardThreeNumber);
+        Console.WriteLine(holderNames + "\n" + balance + "\n" + bankName + "\n" + iBan + "\n" + cardOneNumber + "\n" + cardTwoNumber + "\n" + cardThreeNumber);
     }
 }
