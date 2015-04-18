@@ -10,13 +10,13 @@ class FillBankData
 {
     static void Main()
     {
-        string holderNames = null;
-        long balance = 0L;
-        string bankName = null;
-        string iBan = null;
-        long cardOneNumber = 0L;
-        long cardTwoNumber = 0L;
-        long cardThreeNumber = 0L;
+        string holderNames = "Fisrt\\Middle\\Last";
+        decimal balance = 5557.00M;
+        string bankName = "Some Bank";
+        string iBan = "Some Alphanumeric Data";
+        long cardOneNumber = 132165165156165163L;
+        long cardTwoNumber = 1615616646546645646L;
+        long cardThreeNumber = 15655655444455555L;
         Console.WriteLine(holderNames + "\n" + balance + "\n" + bankName + "\n" + iBan + "\n" + cardOneNumber + "\n" + cardTwoNumber + "\n" + cardThreeNumber);
     }
 }
